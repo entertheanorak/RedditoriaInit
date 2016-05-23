@@ -2,4 +2,12 @@
     <string name="app_name">Redditoria</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="subreddit">gaming</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="topic_list">Topic List</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="nsfw">https://b.thumbs.redditmedia.com/lGrM-EBRly1M0C4xShmC2TUXZEATc7tZe7mj9Si1UcE.jpg</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

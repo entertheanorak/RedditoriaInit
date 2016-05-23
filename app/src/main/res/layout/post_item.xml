@@ -6,21 +6,21 @@
 
     <TextView
         android:id="@+id/post_title"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@+id/post_score"
-        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/post_image"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        />
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:id="@+id/post_details"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@+id/post_score"
-        android:layout_below="@+id/post_title"
+        android:layout_toRightOf="@+id/post_image"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        />
+        android:layout_below="@+id/post_title" />
 
     <TextView
         android:id="@+id/post_score"
@@ -29,6 +29,13 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         />
 
 </RelativeLayout>
