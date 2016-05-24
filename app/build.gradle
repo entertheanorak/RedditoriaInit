@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'fragmentkeyscore'
             keyPassword 'Markipli3r'
-            storeFile file('C:/Users/A/Desktop/fragment_keystore/fragment.jks')
+            storeFile file("release.keystore")
             storePassword 'Markipli3r'
         }
     }
